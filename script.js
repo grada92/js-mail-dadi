@@ -2,12 +2,12 @@ console.log('js ok')
 // Creo numeri Random da associare a utente e Pc
 let numberPc = parseInt(Math.random() * 6 + 1);
 console.log(numberPc)
-document.getElementById('User').innerHTML = numberPc + ' PC';
+document.getElementById('Pc').innerHTML = numberPc;
 
 
 let numberUser = parseInt(Math.random() * 6 + 1);
 console.log(numberUser)
-document.getElementById('Pc').innerHTML = numberUser + ' USER';
+document.getElementById('User').innerHTML = numberUser;
 
 // Creo un div da appendere al container
 const container = document.getElementById('container')

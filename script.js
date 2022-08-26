@@ -6,12 +6,18 @@ console.log(numberPc)
 let numberUser = parseInt(Math.random() * 6 + 1);
 console.log(numberUser)
 
+const container = document.getElementById('container')
+
+
 if (numberUser > numberPc) 
 {
-    numberUser = 'winner'
-    console.log('winner')
+    winner = 'winner User'
+    console.log(winner)
 }
 else {
-    console.log('lose')
+    winner = 'winner PC'
+    console.log(winner)
 
 }
+
+
